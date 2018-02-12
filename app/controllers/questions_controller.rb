@@ -2,6 +2,7 @@ class QuestionsController < ApplicationController
   def ask
   end
 
+#this is a comment test
   def answer
     @question = params[:question]
     @answer = coachmethod(@question)
